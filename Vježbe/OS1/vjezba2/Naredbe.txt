@@ -49,5 +49,5 @@ Ne možemo obrisati mapu koja ne postoji.
 
 Nakon ovoga ide:
 git add .
-git commit -m "OS1 - Vježba 1"
+git commit -m "OS1 - Vježba 2"
 git push
