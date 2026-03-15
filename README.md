@@ -1,1 +1,1 @@
-Repozitorij u svrhu predavanja vježbi za kolegij FIPU-Operaciski sustavi
+Repozitorij u svrhu predavanja vježbi za kolegij FIPU-Operacijski sustavi
