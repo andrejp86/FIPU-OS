@@ -1,0 +1,64 @@
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ ls
+README.md  Testiranje.txt  Vježbe/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ mkdir vježbe/os1/vjezba3
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ mkdir vježbe/os1/vjezba3/backup
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3 (main)
+$ touch Naredbe.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3 (main)
+$ touch notes.txt | touch todo.txt | touch script.sh
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3 (main)
+$ cp notes.txt backup/ && cp script.sh backup/ && cp todo.txt backup/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3 (main)
+$ ls backup/
+notes.txt  script.sh  todo.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3 (main)
+$ rm script.sh
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3 (main)
+$ ls
+backup/  Naredbe.txt  notes.txt  todo.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup (main)
+$ mkdir $USER
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup (main)
+$ mkdir $USERNAME
+
+    --> vrlo bitno, u bash se koristi $USERNAME umjesto $USER
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup (main)
+$ mv notes.txt $USERNAME/  && mv script.sh $USERNAME/ && mv todo.txt $USERNAME 
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup (main)
+$ ls
+ADMIN/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup (main)
+$ cd admin/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba3/backup/admin (main)
+$ ls
+notes.txt  script.sh  todo.txt
+
+    --> Ovo se mogli riješiti i sa mv backup/* $USERNAME/
+
+
+Nakon ovoga ide:
+git add .
+git commit -m "OS1 - Vježba 3"
+git push
