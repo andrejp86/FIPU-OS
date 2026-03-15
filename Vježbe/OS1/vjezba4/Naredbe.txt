@@ -1,0 +1,49 @@
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ ls
+README.md  Testiranje.txt  Vježbe/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ cd vježbe/os1
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1 (main)
+$ mkdir vjezba4
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1 (main)
+$ cd vjezba4/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ mkdir subfolder
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ ls
+subfolder/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ touch Naredbe.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ mkdir $HOSTNAME
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ ls
+DESKTOP-RJA6D4O/  Naredbe.txt  subfolder/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ rm -r ~/Desktop/FIPU/2.\ Semestar/Operacijski\ Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4/subfolder/$USERNAME
+
+    --> Pazi, ako u putanji ima razmak onda se koristi \ na mjestu razmaka
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ ls
+Naredbe.txt  subfolder/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4 (main)
+$ cd subfolder/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba4/subfolder (main)
+$ ls
+
+
