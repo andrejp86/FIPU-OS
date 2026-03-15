@@ -1,2 +1,3 @@
 Test_kreirano na Desktop
 Test_Kreirano na GitHub
+Testiram git bash
