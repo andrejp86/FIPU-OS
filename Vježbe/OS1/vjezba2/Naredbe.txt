@@ -1,0 +1,53 @@
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ ls
+README.md  Testiranje.txt  Vježbe/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ mkdir vježbe/OS1/vjezba2
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ cd vježbe/os1/vjezba2
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ touch file.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ cp file.txt file_copy.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ ls
+file.txt  file_copy.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ rm file.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ ls
+file_copy.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ touch Naredbe.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba2 (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1 (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ ls
+README.md  Testiranje.txt  Vježbe/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ rm vjezba2
+rm: cannot remove 'vjezba2': No such file or directory
+
+Ne možemo obrisati mapu koja ne postoji.
+
+Nakon ovoga ide:
+git add .
+git commit -m "OS1 - Vježba 1"
+git push
