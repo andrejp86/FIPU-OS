@@ -1,0 +1,35 @@
+$ ls
+README.md  Testiranje.txt  Vježbe/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ mkdir Vježbe/OS1/vjezba1
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ cd vježbe/os1/vjezba1
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba1 (main)
+$ touch README.md
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba1 (main)
+$ touch Naredbe.txt
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1/vjezba1 (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os1 (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe (main)
+$ cd ..
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ ls
+README.md  Testiranje.txt  Vježbe/
+
+ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$
+
+Nakon ovoga ide:
+git add .
+git commit -m "OS1 - Vježba 1"
+git push
