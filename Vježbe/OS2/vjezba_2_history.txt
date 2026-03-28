@@ -1,0 +1,96 @@
+$ history
+    1  ls
+    2  ls -a
+    3  mkdir -p vjezba_2data vjezba_2backup
+    4  cd vjezba_2data
+    5  touch script.js style.css .env
+    6  ls -a
+    7  echo 'console.log(Hello, World!)'  script.js
+    8  echo 'body { background-color #f0f0f0; }'  style.css
+    9  echo 'VJEZBE=OS'  .env
+   10  cat script.js
+   11  cat style.css
+   12  cat .env
+   13  cd ..
+   14  cp data. backup
+   15  cp -r data. backup
+   16  cp -rv data. backup
+   17  cd data
+   18  ls -laS
+   19  ls -lAS
+   20  rm -i script.js style.css
+   21  cd ..
+   22  cp -rnv backup data
+   23  ls -lAt -1
+   24  cd data
+   25  ls -lAt -1
+   26  tree
+   27  tree -a
+   28  tree -l
+   29  tree -L
+   30  tree - -L
+   31  tree - -a
+   32  cd ..
+   33  tree data
+   34  tree data
+   35  tree.com
+   36  cd data
+   37  tree.com
+   38  cd ..
+   39  tree
+   40  tree data
+   41  cd data
+   42  tree
+   43  tree
+   44  source ~.bashrc
+   45  tree
+   46  tree
+   47  tree.com F
+   48  tree F
+   49  tree
+   50  source ~.bashrc
+   51  tree
+   52  tree F
+   53  source ~.bashrc
+   54
+   55  source ~.bashrc
+   56  tree
+   57  tree
+   58  tree.com
+   59  source ~.bashrc
+   60  tree.com
+   61  tree
+   62  tree
+   63  source ~.bashrc
+   64  tree
+   65  source ~.bashrc
+   66  tree
+   67  source ~.bashrc
+   68  tree
+   69  tree.com
+   70  tree
+   71  tree
+   72  cd ..
+   73  tree
+   74  $ nano ~.bashrc
+   75  nano ~.bashrc
+   76  source ~.bashrc
+   77  tree
+   78  tree data
+   79  tree 'data'
+   80  tree 'data'
+   81  cd data
+   82  tree
+   83  cd ..
+   84  cd ..
+   85  cd ..
+   86  cd ADMIN@DESKTOP-RJA6D4O MINGW64 ~DesktopFIPU
+   87  cd ..
+   88  cd ..
+   89  cd ..
+   90  cd ..
+   91  cd ..
+   92  ls -lAS
+   93  ls -lhS
+   94  tree
+   95  history
