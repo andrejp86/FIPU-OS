@@ -1,0 +1,639 @@
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2 (main)
+$ ls
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2 (main)
+$ ls -a
+./  ../
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2 (main)
+$ mkdir -p vjezba_2/data vjezba_2/backup
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2 (main)
+$ cd vjezba_2/data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ touch script.js style.css .env
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ ls -a
+./  ../  .env  script.js  style.css
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ echo "console.log("Hello, World!")" > script.js
+bash: !": event not found
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ echo 'console.log("Hello, World!")' > script.js
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ echo 'body { background-color: #f0f0f0; }' > style.css
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ echo 'VJEZBE=OS' > .env
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cat script.js
+console.log("Hello, World!")
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cat style.css
+body { background-color: #f0f0f0; }
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cat .env
+VJEZBE=OS
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cp data/. backup
+cp: -r not specified; omitting directory 'data/.'
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cp -r data/. backup
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cp -rv data/. backup
+'data/./script.js' -> 'backup/./script.js'
+'data/./.env' -> 'backup/./.env'
+'data/./style.css' -> 'backup/./style.css'
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cd data/
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ ls -laS
+total 3
+-rw-r--r-- 1 ADMIN 197121 36 Mar 28 21:34 style.css
+-rw-r--r-- 1 ADMIN 197121 29 Mar 28 21:33 script.js
+-rw-r--r-- 1 ADMIN 197121 10 Mar 28 21:35 .env
+drwxr-xr-x 1 ADMIN 197121  0 Mar 28 21:27 ./
+drwxr-xr-x 1 ADMIN 197121  0 Mar 28 21:26 ../
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ ls -lAS
+total 3
+-rw-r--r-- 1 ADMIN 197121 36 Mar 28 21:34 style.css
+-rw-r--r-- 1 ADMIN 197121 29 Mar 28 21:33 script.js
+-rw-r--r-- 1 ADMIN 197121 10 Mar 28 21:35 .env
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ rm -i script.js style.css
+rm: remove regular file 'script.js'? y
+rm: remove regular file 'style.css'? y
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cp -rnv backup/* data
+'backup/script.js' -> 'data/script.js'
+'backup/style.css' -> 'data/style.css'
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ ls -lAt -1
+total 0
+drwxr-xr-x 1 ADMIN 197121 0 Mar 28 21:51 data/
+drwxr-xr-x 1 ADMIN 197121 0 Mar 28 21:39 backup/
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cd data/
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ ls -lAt -1
+total 3
+-rw-r--r-- 1 ADMIN 197121 36 Mar 28 21:51 style.css
+-rw-r--r-- 1 ADMIN 197121 29 Mar 28 21:51 script.js
+-rw-r--r-- 1 ADMIN 197121 10 Mar 28 21:35 .env
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+C:.
+No subfolders exist
+
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree -a
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data\-a
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree -l
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data\-l
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree -L
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data\-L
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree - -L
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data\-
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree - -a
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data\-
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree data/
+Invalid parameter - /
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree data
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree.com
+Folder PATH listing
+Volume serial number is C2B9-1059
+C:.
+├───backup
+└───data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cd data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree.com
+Folder PATH listing
+Volume serial number is C2B9-1059
+C:.
+No subfolders exist
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree
+C:.
+├───backup
+└───data
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree data
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cd data/
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+C:.
+No subfolders exist
+
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+C:.
+No subfolders exist
+
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree.com /F
+Invalid drive specification
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree /F
+Invalid parameter - /
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+C:.
+No subfolders exist
+
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree /F
+Invalid parameter - /
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree.com
+Folder PATH listing
+Volume serial number is C2B9-1059
+C:.
+No subfolders exist
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree.com
+Folder PATH listing
+Volume serial number is C2B9-1059
+C:.
+No subfolders exist
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree.com
+Folder PATH listing
+Volume serial number is C2B9-1059
+C:.
+No subfolders exist
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ $ nano ~/.bashrc
+bash: $: command not found
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ nano ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ source ~/.bashrc
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree
+C:.
+├───backup
+└───data
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree data/
+Invalid parameter - /
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree 'data'
+Cannot access file C:\Users\ADMIN\Desktop\FIPU\2. Semestar\Operacijski Sustavi\GIT\FIPU-OS\vježbe\os2\vjezba_2\data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ tree 'data/'
+Invalid parameter - /
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cd data
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ tree
+C:.
+No subfolders exist
+
+
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2/data (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2/vjezba_2 (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe/os2 (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe (main)
+$ cd   ~/Desktop/FIPU
+bash: cd: too many arguments
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS/vježbe (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT/FIPU-OS (main)
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi
+$ cd ..
+
+  ~/Desktop/FIPU/2. Semestar
+$ cd ..
+
+  ~/Desktop/FIPU
+$ ls -lAS
+total 8
+drwxr-xr-x 1 ADMIN 197121 0 Dec 14 13:36 '1. Semestar'/
+drwxr-xr-x 1 ADMIN 197121 0 Mar 19 18:36 '2. Semestar'/
+drwxr-xr-x 1 ADMIN 197121 0 Jan 19 13:57  C++/
+drwxr-xr-x 1 ADMIN 197121 0 Oct 30 19:40 'Priznavanje ispita'/
+drwxr-xr-x 1 ADMIN 197121 0 Dec 14 13:07  Python/
+
+  ~/Desktop/FIPU
+$ ls -lhS
+total 8.0K
+drwxr-xr-x 1 ADMIN 197121 0 Dec 14 13:36 '1. Semestar'/
+drwxr-xr-x 1 ADMIN 197121 0 Mar 19 18:36 '2. Semestar'/
+drwxr-xr-x 1 ADMIN 197121 0 Jan 19 13:57  C++/
+drwxr-xr-x 1 ADMIN 197121 0 Oct 30 19:40 'Priznavanje ispita'/
+drwxr-xr-x 1 ADMIN 197121 0 Dec 14 13:07  Python/
+
+  ~/Desktop/FIPU
+$ tree
+C:.
+├───1. Semestar
+│   ├───IKT
+│   │   ├───HTML_CSS
+│   │   │   ├───1. Kolokvij
+│   │   │   │   └───Prilog
+│   │   │   │       └───__MACOSX
+│   │   │   ├───1. Vježba
+│   │   │   ├───2. Vježba
+│   │   │   │   └───HTML (V2) - 2. zadatak za bod
+│   │   │   ├───3. Vježba
+│   │   │   │   └───HTML (V3) - 3. zadatak za bod
+│   │   │   │       └───Resursi
+│   │   │   │           └───__MACOSX
+│   │   │   ├───4. Vježba
+│   │   │   └───5. Vježba
+│   │   └───Python
+│   │       ├───1. Vježba
+│   │       ├───2. Kolokvij
+│   │       ├───2. Vježba
+│   │       ├───3. Vježba
+│   │       ├───4. Vježba
+│   │       └───5. Vježba
+│   ├───Logika i diskretna matematika
+│   │   ├───LDM- Literatura
+│   │   │   └───LDM
+│   │   ├───LDM- Ogledni-projekt
+│   │   │   ├───finalno
+│   │   │   │   ├───poster
+│   │   │   │   └───src
+│   │   │   │       └───__pycache__
+│   │   │   └───prijava
+│   │   ├───OK_Funkcije
+│   │   │   └───_NOK
+│   │   │       ├───_NOK1
+│   │   │       └───_NOK2
+│   │   ├───OK_Ispunjivost
+│   │   ├───OK_Jezik logike sudova
+│   │   ├───OK_Kombinatorika
+│   │   ├───OK_Logika 1. reda
+│   │   ├───OK_Permutacije
+│   │   ├───OK_Relacije
+│   │   ├───OK_Semantika logike sudova
+│   │   ├───OK_Skupovi
+│   │   ├───OK_Teorija grafova
+│   │   └───Python
+│   ├───MSUS
+│   │   ├───Audacity
+│   │   ├───Blender
+│   │   ├───GIMP
+│   │   └───INKSCAPE
+│   ├───OSNOVE PODATKOVNE ZNANOSTI
+│   │   ├───Projekt 1
+│   │   │   └───Projekt_1-predaja
+│   │   ├───Projekt 2
+│   │   │   └───Projekt_2-predaja
+│   │   └───Vježbe
+│   │       ├───MarkDown
+│   │       └───Python
+│   └───PROGRAMIRANJE
+│       ├───1. Kolokvij_ispit
+│       ├───2. Kolokvij_ispit
+│       │   └───3K_datoteke
+│       │       └───__MACOSX
+│       ├───Vježbe
+│       ├───Zadaci 1. kolokvij
+│       │   ├───Demonstrature
+│       │   └───Primjer kolokvija
+│       ├───Zadaci 2. kolokvij
+│       │   ├───Demonstrature
+│       │   └───Primjer 2. kolokvija
+│       └───Zadaci_google_chat
+│           ├───a++ + ++b
+│           └───SUMA
+├───2. Semestar
+│   ├───Operacijski Sustavi
+│   │   ├───1. Kolokvij
+│   │   ├───GIT
+│   │   │   ├───FIPU-OS
+│   │   │   │   └───Vježbe
+│   │   │   │       ├───OS1
+│   │   │   │       │   ├───vjezba1
+│   │   │   │       │   ├───vjezba2
+│   │   │   │       │   ├───vjezba3
+│   │   │   │       │   │   └───backup
+│   │   │   │       │   │       └───ADMIN
+│   │   │   │       │   └───vjezba4
+│   │   │   │       │       └───subfolder
+│   │   │   │       ├───OS2
+│   │   │   │       │   └───vjezba_2
+│   │   │   │       │       ├───backup
+│   │   │   │       │       └───data
+│   │   │   │       ├───OS3
+│   │   │   │       ├───OS4
+│   │   │   │       └───OS5
+│   │   │   └───FIPU-REP
+│   │   ├───Predavanja
+│   │   └───Vježbe
+│   └───Skriptni jezici
+│       └───EduCoder
+├───C++
+├───Priznavanje ispita
+└───Python
+    ├───.venv
+    │   ├───Include
+    │   ├───Lib
+    │   │   └───site-packages
+    │   │       ├───pip
+    │   │       │   ├───_internal
+    │   │       │   │   ├───cli
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───commands
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───distributions
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───index
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───locations
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───metadata
+    │   │       │   │   │   ├───importlib
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───models
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───network
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───operations
+    │   │       │   │   │   ├───build
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───install
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───req
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───resolution
+    │   │       │   │   │   ├───legacy
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───resolvelib
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───utils
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───vcs
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   └───__pycache__
+    │   │       │   ├───_vendor
+    │   │       │   │   ├───cachecontrol
+    │   │       │   │   │   ├───caches
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───certifi
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───dependency_groups
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───distlib
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───distro
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───idna
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───msgpack
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───packaging
+    │   │       │   │   │   ├───licenses
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───pkg_resources
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───platformdirs
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───pygments
+    │   │       │   │   │   ├───filters
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───formatters
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───lexers
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───styles
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───pyproject_hooks
+    │   │       │   │   │   ├───_in_process
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───requests
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───resolvelib
+    │   │       │   │   │   ├───resolvers
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───rich
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───tomli
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───tomli_w
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───truststore
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   ├───urllib3
+    │   │       │   │   │   ├───contrib
+    │   │       │   │   │   │   ├───_securetransport
+    │   │       │   │   │   │   │   └───__pycache__
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───packages
+    │   │       │   │   │   │   ├───backports
+    │   │       │   │   │   │   │   └───__pycache__
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   ├───util
+    │   │       │   │   │   │   └───__pycache__
+    │   │       │   │   │   └───__pycache__
+    │   │       │   │   └───__pycache__
+    │   │       │   └───__pycache__
+    │   │       └───pip-25.3.dist-info
+    │   │           └───licenses
+    │   │               └───src
+    │   │                   └───pip
+    │   │                       └───_vendor
+    │   │                           ├───cachecontrol
+    │   │                           ├───certifi
+    │   │                           ├───dependency_groups
+    │   │                           ├───distlib
+    │   │                           ├───distro
+    │   │                           ├───idna
+    │   │                           ├───msgpack
+    │   │                           ├───packaging
+    │   │                           ├───pkg_resources
+    │   │                           ├───platformdirs
+    │   │                           ├───pygments
+    │   │                           ├───pyproject_hooks
+    │   │                           ├───requests
+    │   │                           ├───resolvelib
+    │   │                           ├───rich
+    │   │                           ├───tomli
+    │   │                           ├───tomli_w
+    │   │                           ├───truststore
+    │   │                           └───urllib3
+    │   └───Scripts
+    └───.vscode
+
+
+  ~/Desktop/FIPU
+$
