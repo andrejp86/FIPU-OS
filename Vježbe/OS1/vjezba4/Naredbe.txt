@@ -47,3 +47,7 @@ ADMIN@DESKTOP-RJA6D4O MINGW64 ~/Desktop/FIPU/2. Semestar/Operacijski Sustavi/GIT
 $ ls
 
 
+Nakon ovoga ide:
+git add .
+git commit -m "OS1 - Vježba 4"
+git push
