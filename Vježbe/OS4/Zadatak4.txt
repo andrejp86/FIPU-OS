@@ -1,0 +1,23 @@
+Zadaci za Vježbu 4 
+	1. Preuzmite i instalirajte VirtualBox na svoje računalo.
+	2. Preuzmite i instalirajte Ubuntu Server (LTS verziju) te izradite novi virtualni stroj.
+		- Tijekom instalacije Ubuntu Servera, za username unesite svoje ime i prezime u formatu: imeprezime.
+	3. Nakon instalacije, napravite screenshot početnog zaslona Ubuntu Servera na kojem se jasno vidi vaše korisničko 
+		ime i naziv virtualnog stroja.
+
+Za svaki od sljedećih zadataka napravite odgovarajući screenshot:
+
+	* Ažurirajte lokalnu listu dostupnih paketa i verzija te nadogradite sve pakete na najnovije verzije.
+	* Instalirajte paket openssh-server, pokrenite SSH poslužitelj i provjerite njegov status.
+	* Pronađite IP adresu virtualnog stroja i provjerite koji su mrežni portovi otvoreni.
+		- Kako ćete provjeriti koji port koristi SSH poslužitelj?
+	* Povežite se na SSH poslužitelj putem SSH klijenta na dva načina:
+		- korištenjem virtualnog mrežnog adaptera u  NAT mode i uz odgovarajući port forwarding
+		- korištenjem virtualnog mrežnog adaptera u Bridged mode
+	* Kada uspostavite SSH vezu s poslužiteljem, napravite screenshot terminala domaćina (SSH klijenta).
+
+* Putem domaćina, izradite novu bash skriptu unutar virtualnog stroja, u direktoriju /home/username/ (zamijenite 
+	username svojim korisničkim imenom). 
+	Skripta treba napraviti detaljan ispis svih datoteka (uključujući skrivene) iz korijenskog direktorija VM-a ( /).
+	
+	Za ovaj zadatak također napravite screenshot i na VM-u i u terminalu domaćina.
